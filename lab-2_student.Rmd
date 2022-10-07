@@ -67,7 +67,7 @@ You can access the sub folders inside the working directory using relative path:
 
 ```{r error = FALSE}
 # examples of using relative file directory
-df <- import(".data/world_happiness_2015.csv")
+#df <- import(".data/world_happiness_2015.csv")
 ```
 
 or you can use function `here` to locate the directory of a file by adding names of the sub-folders
